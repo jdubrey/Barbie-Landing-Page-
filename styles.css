@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(242, 0, 161);
+}
+.transparent {
+  background-color: rgb(254, 189, 229);
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+img {
+  padding: 50px 12px;
+  width: 270px;
+}
