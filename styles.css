@@ -1,13 +1,38 @@
 body {
+  background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
+.hero {
   background-color: rgb(242, 0, 161);
+  margin: 0 0 20px;
+  padding: 0 20px;
+}
+h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 36px;
+}
+p {
+  font-family: "Hind Vadodara", sans-serif;
 }
 .transparent {
   background-color: rgb(254, 189, 229);
   width: 300px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 50%;
+}
+.transparent-image {
+  width: 300px;
+  height: 300px;
 }
 img {
-  padding: 50px 12px;
-  width: 270px;
+  padding: 20px 12px;
+  width: 170px;
+}
+.section-headings {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer {
+  margin-top: 80px;
 }
