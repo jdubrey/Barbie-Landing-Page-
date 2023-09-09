@@ -11,7 +11,7 @@ body {
 }
 .hero {
   background: #ffffff;
-  padding: 70px;
+  padding: 60px 70px 70px;
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
@@ -37,8 +37,9 @@ p {
   border-radius: 50%;
 }
 .transparent-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 .artist-link {
   background-color: rgb(242, 0, 161);
