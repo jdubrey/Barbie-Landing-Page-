@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  background: rgb(255, 160, 215);
 }
 .navigation {
   background-color: rgb(242, 0, 161);
@@ -10,7 +10,7 @@ body {
   width: 150px;
 }
 .hero {
-  background: #ffffff;
+  background: #ffecf9;
   padding: 60px 70px 70px;
   margin-left: 0;
   margin-right: 0;
@@ -49,7 +49,7 @@ p {
 }
 
 .artist-link:hover {
-  background-color: #ffffff;
+  background-color: rgb(254, 189, 229);
   color: rgb(242, 0, 161);
   border-radius: 4px;
   padding: 15px 40px;
