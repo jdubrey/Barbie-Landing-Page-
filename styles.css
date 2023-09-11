@@ -20,11 +20,13 @@ body {
 h1 {
   font-family: "Satisfy", cursive;
   font-size: 54px;
+  color: #175676;
 }
 p {
   font-family: "Satisfy", cursive;
   font-size: 24px;
   text-align: left;
+  color: #175676;
 }
 .content-info {
   width: 300px;
@@ -56,7 +58,7 @@ p {
   border-color: rgb(242, 0, 161);
 }
 .album-stats {
-  margin: 100px 30px 100px;
+  margin: 100px 30px 10px;
   background-color: rgb(254, 189, 229);
   width: 200px;
   height: 200px;
@@ -64,10 +66,12 @@ p {
   border-radius: 20px;
   color: #ffffff;
 }
-.album-stats:hover {
+.album-stats:hover,
+.artist-stats:hover {
   background-color: rgb(254, 189, 229, 0.7);
 }
-.album-stats p {
+.album-stats p,
+.artist-stats p {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -76,6 +80,15 @@ h3 {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 24px;
   text-align: center;
+}
+.artist-stats {
+  margin: 10px 30px 100px;
+  background-color: rgb(254, 189, 229);
+  width: 200px;
+  height: 200px;
+  padding: 30px 30px;
+  border-radius: 20px;
+  color: #ffffff;
 }
 
 .footer {
