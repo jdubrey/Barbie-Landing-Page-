@@ -32,16 +32,11 @@ p {
   width: 300px;
   height: 300px;
 }
-.transparent {
-  background-color: rgb(254, 189, 229);
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
 .transparent-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 12px;
+  border: 5px solid rgb(254, 189, 229);
 }
 .artist-link {
   background-color: rgb(242, 0, 161);
@@ -58,7 +53,7 @@ p {
   border-color: rgb(242, 0, 161);
 }
 .album-stats {
-  margin: 100px 30px 10px;
+  margin: 100px 30px 50px;
   background-color: rgb(254, 189, 229);
   width: 200px;
   height: 200px;
@@ -90,7 +85,16 @@ h3 {
   border-radius: 20px;
   color: #ffffff;
 }
-
+.playlist {
+  margin: 10px 0px 100px;
+}
+.artist-photo {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 0px 80px;
+  border-radius: 12px;
+  border: 4px solid #ea2078;
+}
 .footer {
   margin: 80px 0 40px;
 }
