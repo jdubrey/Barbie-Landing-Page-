@@ -108,7 +108,12 @@ h3 {
 }
 .footer-text {
   text-align: center;
+  font-size: 16px;
 }
 .git-link {
-  text-align: center;
+  text-decoration: none;
+  color: rgb(254, 189, 229);
+}
+.git-link:hover {
+  color: rgb(242, 0, 161);
 }
