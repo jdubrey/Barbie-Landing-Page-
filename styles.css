@@ -1,5 +1,5 @@
 body {
-  background: rgb(255, 160, 215);
+  background: #feecf9;
 }
 .navigation {
   background-color: rgb(242, 0, 161);
@@ -23,10 +23,11 @@ h1 {
   color: #175676;
 }
 p {
-  font-family: "Satisfy", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
-  text-align: left;
+
   color: #175676;
+  line-height: 1.5;
 }
 .content-info {
   width: 300px;
@@ -46,17 +47,17 @@ p {
 }
 
 .artist-link:hover {
-  background-color: rgb(254, 189, 229);
+  background-color: #ffecf9 ease-in-out 4s;
   color: rgb(242, 0, 161);
   border-radius: 4px;
   padding: 15px 40px;
   border-color: rgb(242, 0, 161);
 }
 .album-stats {
-  margin: 100px 30px 50px;
+  margin: 100px 10px 50px;
   background-color: rgb(254, 189, 229);
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   padding: 30px 30px;
   border-radius: 20px;
   color: #ffffff;
@@ -67,12 +68,12 @@ p {
 }
 .album-stats p,
 .artist-stats p {
-  font-family: "Hind Vadodara", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
 }
 h3 {
-  font-family: "Hind Vadodara", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   text-align: center;
 }
@@ -88,6 +89,9 @@ h3 {
 .playlist {
   margin: 10px 0px 100px;
 }
+.song {
+  padding: 25px 0 0 0;
+}
 .artist-photo {
   max-height: 300px;
   max-width: 300px;
@@ -96,8 +100,15 @@ h3 {
   border: 4px solid #ea2078;
 }
 .footer {
-  margin: 80px 0 40px;
+  margin: 80px 0;
+  background-color: #4ba3c3;
+  border-radius: 12px;
+  padding: 30px 120px;
+  max-width: 100%;
 }
 .footer-text {
+  text-align: center;
+}
+.git-link {
   text-align: center;
 }
