@@ -117,3 +117,29 @@ h3 {
 .git-link:hover {
   color: rgb(242, 0, 161);
 }
+@media (max-width: 992px) {
+  .navigation {
+    text-align: center;
+  }
+  h1 {
+    line-height: 1;
+  }
+  p {
+    font-size: 22px;
+  }
+  .transparent-image,
+  .artist-photo,
+  .song-link {
+    display: none;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .song {
+    width: 70%;
+    margin: auto;
+  }
+  .playlist {
+    margin: 15px;
+  }
+}
