@@ -10,13 +10,12 @@ body {
   width: 150px;
 }
 .hero {
-  background: #ffecf9;
+  background: #bde0fe;
   padding: 60px 70px 70px;
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
 }
-
 h1 {
   font-family: "Satisfy", cursive;
   font-size: 54px;
@@ -25,9 +24,12 @@ h1 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-
   color: #175676;
   line-height: 1.5;
+  font-weight: bold;
+}
+.album-stats h3 {
+  font-family: "Satisfy", cursive;
 }
 .content-info {
   width: 300px;
@@ -39,35 +41,40 @@ p {
   border-radius: 12px;
   border: 5px solid rgb(254, 189, 229);
 }
-.artist-link {
+.song-link {
   background-color: rgb(242, 0, 161);
   color: #ffffff;
   border-radius: 4px;
   padding: 15px 40px;
 }
-
-.artist-link:hover {
-  background-color: #ffecf9 ease-in-out 4s;
+.song-link:hover {
+  background-color: rgb(254, 189, 229);
+  transition: ease-in-out;
   color: rgb(242, 0, 161);
   border-radius: 4px;
   padding: 15px 40px;
   border-color: rgb(242, 0, 161);
 }
 .album-stats {
-  margin: 100px 10px 50px;
+  margin: 60px 10px 100px;
   background-color: rgb(254, 189, 229);
   width: 100px;
-  height: 100px;
+  height: 80px;
   padding: 30px 30px;
   border-radius: 20px;
-  color: #ffffff;
+  color: #fc6ace;
 }
-.album-stats:hover,
-.artist-stats:hover {
-  background-color: rgb(254, 189, 229, 0.7);
+.album-stats:hover {
+  color: #fc6ace;
 }
-.album-stats p,
-.artist-stats p {
+.album-link {
+  text-decoration: none;
+  color: #fc6ace;
+}
+.album-link:hover {
+  color: rgb(242, 0, 161);
+}
+.album-stats p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -77,27 +84,19 @@ h3 {
   font-size: 24px;
   text-align: center;
 }
-.artist-stats {
-  margin: 10px 30px 100px;
-  background-color: rgb(254, 189, 229);
-  width: 200px;
-  height: 200px;
-  padding: 30px 30px;
-  border-radius: 20px;
-  color: #ffffff;
-}
 .playlist {
-  margin: 10px 0px 100px;
+  margin: 50px 0px 50px;
 }
 .song {
   padding: 25px 0 0 0;
 }
 .artist-photo {
-  max-height: 300px;
-  max-width: 300px;
-  margin: 0px 80px;
+  height: 200px;
+  width: 200px;
+  margin: 0px 50px;
   border-radius: 12px;
   border: 4px solid #ea2078;
+  object-fit: cover;
 }
 .footer {
   margin: 80px 0;
@@ -109,6 +108,7 @@ h3 {
 .footer-text {
   text-align: center;
   font-size: 16px;
+  font-weight: normal;
 }
 .git-link {
   text-decoration: none;
