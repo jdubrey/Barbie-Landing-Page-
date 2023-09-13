@@ -124,12 +124,13 @@ h3 {
   h1 {
     line-height: 1;
   }
+  .hero {
+    padding: 40px 70px 80px;
+  }
   p {
     font-size: 22px;
   }
-  .transparent-image,
-  .artist-photo,
-  .song-link {
+  .artist-photo {
     display: none;
   }
   .col-4 {
